@@ -1,0 +1,148 @@
+@import url(http://fonts.googleapis.com/css?family=Sanchez);
+/* Variables */
+html {
+  background: url('/resources/img/bg.png') repeat 0 0;
+}
+body,
+.hero-unit {
+  background: transparent;
+}
+body {
+  padding-top: 40px;
+  font-family: 'Sanchez', sans-serif;
+}
+textarea {
+  width: 100%;
+  min-height: 60px;
+}
+a {
+  color: #1188ff;
+}
+a:hover {
+  color: #006edd;
+}
+.btn-primary {
+  background: #1188ff;
+}
+.btn-primary:hover {
+  background: #006edd;
+}
+.control-group.error > label,
+.control-group.error .help-block,
+.control-group.error .help-inline,
+.control-group.error .checkbox,
+.control-group.error .radio {
+  color: #ff0077;
+}
+.control-group.error input,
+.control-group.error select,
+.control-group.error textarea {
+  color: #ff0077;
+  border-color: #ff0077;
+}
+.alert-danger,
+.alert-error {
+  color: #ff0077;
+  background-color: #ffe5f1;
+  border-color: #ffcce4;
+}
+/* Landing page */
+.hero-unit {
+  min-height: 250px;
+  text-align: center;
+}
+.hero-unit h1 {
+  font-size: 80px;
+  line-height: 120px;
+}
+.hero-unit h2 {
+  margin-bottom: 30px;
+}
+/* Forms */
+.help-inline {
+  font-size: 12px;
+  color: gray;
+  line-height: 16px;
+}
+.form-horizontal .help-inline {
+  display: block;
+  padding-left: 0;
+}
+.form-horizontal input {
+  display: block;
+  width: 325px;
+}
+.btn-large {
+  width: 130px;
+}
+.form-wrap {
+  width: 530px;
+  margin: 0 auto;
+  position: relative;
+}
+/* Notifications */
+#notice {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 38px;
+}
+#notice .alert {
+  text-align: center;
+}
+#signin_result .alert {
+  padding-left: 35px;
+  text-align: center;
+}
+/* Messages */
+.well {
+  border-color: #aeaeae;
+  padding-bottom: 10px;
+}
+.author-info span {
+  color: gray;
+  font-size: 0.9em;
+}
+.user-info h3,
+.user-info #follow_btn {
+  display: inline-block;
+}
+.user-info h3 {
+  margin: 15px 10px 15px 0;
+  line-height: 28px;
+}
+.user-info #follow_btn {
+  margin-top: 15px;
+  vertical-align: top;
+}
+/* Modal */
+.modal-backdrop,
+.modal-backdrop.fade.in {
+  opacity: .2;
+  filter: alpha(opacity=20);
+}
+.modal-body textarea {
+  width: 516px;
+}
+.modal-body #preview_container {
+  background-color: lightgray;
+  margin: 5px -15px -15px;
+  padding: 15px;
+}
+.modal-footer {
+  text-align: center;
+}
+.post-footer {
+  text-align: right;
+}
+.char-wrap {
+  color: gray;
+  margin: 10px 5px 0 0;
+  vertical-align: middle;
+}
+.char-wrap .char-error {
+  color: red;
+}
+.char-wrap .char-warning {
+  color: orange;
+}

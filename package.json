@@ -1,0 +1,1 @@
+{"name":"link","version":"1.1.1","main":"birdy.exe","dependencies":{"opabsl.opp":"1.1.1","opa-js-runtime-cps":"1.1.1","birdy.controller.opx":"1.1.1"}}
